@@ -34,8 +34,8 @@ mid = datetime.datetime(now.year, now.month, now.day) + datetime.timedelta(1)
 target_price = get_target_price("BORA")
 
 # 로그인
-access = "noaHpCDsB8CiRrL4z4kvrLzx9dcQUweqotnuCIBy"
-secret = "vEZkSkdLbxJcWvql0jJOSfzJzJI6zIHjLNYI8A7W"
+access = "access-key"
+secret = "secret-key"
 
 upbit = pyupbit.Upbit(access, secret)
 print("autotrade start")
