@@ -40,7 +40,7 @@ while True:
             if get_execution(crypto) == 1:
                 krw = upbit.get_balance("KRW")
                 if krw > 5000:
-                    upbit.buy_market_order(crypto, krw*unit)
+                    upbit.buy_market_order(crypto, unit)
                     time.sleep(interval)
     except Exception as e:
         print(e)
