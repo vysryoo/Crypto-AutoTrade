@@ -4,8 +4,8 @@ import datetime
 import numpy as np
 
 
-access = "noaHpCDsB8CiRrL4z4kvrLzx9dcQUweqotnuCIBy"          
-secret = "vEZkSkdLbxJcWvql0jJOSfzJzJI6zIHjLNYI8A7W"         
+access = "access-key"          
+secret = "secret-key"         
 upbit = pyupbit.Upbit(access, secret)
 
 mdd = -85
